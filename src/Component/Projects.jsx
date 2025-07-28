@@ -60,12 +60,7 @@ export default function Projects() {
 
                   <div className="d-flex gap-2 mt-3">
                     
-                    <button
-                      className="btn btn-primary btn-sm"
-                      onClick={() => handleOpen(project, "video")}
-                    >
-                      View Video
-                    </button>
+                  
 
                      <button className="btn btn-primary btn-sm">
                       Link:Project is not deployed till now
