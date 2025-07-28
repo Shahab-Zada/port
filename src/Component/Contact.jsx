@@ -112,9 +112,10 @@ export default function Contact() {
               <div className="card shadow-sm h-100 text-center p-4">
                 <FaEnvelope size={36} className="text-primary mb-3" />
                 <h5>Email</h5>
-               <button onclick="window.location.href='mailto:shahabzada302@gmail.com'">
+             <button onClick={() => window.location.href = 'mailto:shahabzada302@gmail.com'}>
   Send Email
 </button>
+
 
               </div>
             </motion.div>
@@ -129,7 +130,7 @@ export default function Contact() {
               <div className="card shadow-sm h-100 text-center p-4">
                 <FaPhoneAlt size={36} className="text-primary mb-3" />
                 <h5>Mobile</h5>
-         <button onclick="window.open('https://wa.me/923199001379', '_blank')">
+        <button onClick={() => window.open('https://wa.me/923199001379', '_blank')}>
   Chat on WhatsApp
 </button>
 
